@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure full height */
+    background-image: url('./assets/elegant-blue-background-business-presentation.jpg');
+    background-repeat: repeat;
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background */
+/* Prevent the background from repeating */
+}
+
+/* Optional: If you want to prevent scrolling on small heights */
+.container {
+    min-height: 100vh; /* Ensure that the container takes the full height */
+}
+
